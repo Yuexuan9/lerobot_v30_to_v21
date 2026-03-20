@@ -33,7 +33,9 @@ output_dir/
 
 ```bash
 git clone https://github.com/huggingface/lerobot.git
-cd lerobot
+cd /workspace/lerobot
+python3 -m venv .venv
+source .venv/bin/activate
 pip install -e .
 ```
 
